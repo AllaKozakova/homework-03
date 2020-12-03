@@ -39,7 +39,7 @@ body {
 .auth-nav.link: none;
 .link .hero-title,
 .features-title,
-.work-title;
+.work-title,
 .section-title {
   color: var(--title-text-color);
 }
