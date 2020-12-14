@@ -14,6 +14,13 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 }
+:root{
+  tab-size: 4;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .logo {
   display: flex;
   margin-right: 93px;
@@ -31,8 +38,12 @@ body {
   font-size: 26px;
   line-height: 31px;
 }
+.web-link{
+  color: #2196F3;
+}
 .link {
   text-decoration: none;
+  display: block;
   padding: 0px;
   margin: 0px;
 }
